@@ -1,0 +1,20 @@
+#!/usr/bin/env phantasiatop.modules
+
+Phantasiatop follows the Plan9 and central UNIX philosophy: Everything is a file
+ with a small correction:
+ 
+    Everything is a file OR a networked resource with an URI!
+    please follow REST guideluines when referring.
+    
+    The standard GET, POST, PUT, DELETE logic applied to URIs actions on 
+    resources.
+
+Psytori is a daemon that facilitates that and runs different errants for you.
+ it represents at least one itsalive.py process or multitudes of them in groups.
+ The way it operates is by reading/writing from different file sources 
+ (networks), a single memory area could be mapped through a /dev char node with
+ proper naming or through an URI. Think of it as a cron on steroids with a 
+ brain!
+ 
+Actually, the daemon always operates on URIs it just distinguishes 
+ and segregates network and disk usage.

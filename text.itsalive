@@ -1,0 +1,183 @@
+#!/usr/bin/env itsalive
+#! License:     BSD3: use it, modify it, sell it, keep my name out of it.
+#! Tags:        ai text input^output try+out 
+#! Author:      Boril Boyanov <borko.boyanov@gmail.com>
+#! Moto:        "Reading Revolution Baby!"
+
+"It's Aliveee!" Text.
+Text formatting, output input system. Networked, daemonized, instantized, 
+ exploited and brutalized. On websites, terminals and who knows what.
+
+Seems intelligent and krafty.
+
+Understands implying, accentuation, pause and tempo. Listens. Panicks and 
+ exerts Psychotic Behaviour (tm) on deserving users.
+
+italive.py is a smart mothafucka and if a text matches multiple syntaxes
+ it simultaneously output matching interpretation results into different 
+ standard configurable places. When it desnt mk much sense, it does what every 
+ other Joe Shmoe would do: 
+ "THERE'S NO WORDS ON IT!!!... FUCK IT, I'M GOIN LYIVE!!" 
+  (starts blurtin' it 
+   out, on the /dev/stdout, no /dev/stderr. /dev/stderr is reserved for
+   "mind" errors that are programming inadequacy, rather than user's fault...
+   there is a switch however which would force the bot to consider /dev/stderr
+   for unreadable formats... or rubbish, otherwise just plaintexts on the
+   normal output, meaning is not really it's conserns! works like less() or 
+   cat()!)
+
+On aggressive input, it starts behaving more and more erratically with the 
+ f1n4l measure of reporting offender's ass to mods (or just dropping all 
+ connection for a period in case of annoying persistent trolls *lulz*)
+
+Normally, it would blurt out large portions of the text, highlight a given 
+ paragraph, and lighten up sequentially a "comma" separated values with a slight
+ pause between the symbols, words, listings and sentences. Different text/image
+ animations could be scripted to match different accentuated text portions. 
+
+If the bot face user input it usually pauses on the first symbol, waits with a 
+ prompt sign, and if left, it would simply continue with the text. If the input
+ is not recognised as either of it's understandings, it starts "doin' live" 
+ things (more and more stupid things). 
+
+Some of the text could be recognised as "user input traps", that is, a form-like
+ portion of the text which the bot would blurt out as a "widget" for entering 
+ data (in the web variant it's a simple Ajax livened form). The default 
+ behaviour is for the bot to recognize the backspace symbol (or left arrow, you 
+ config alternatives, bot understands them all), pauses text rendering and 
+ moves the visual "carret" on the form itself. Waits for the form to be filled 
+ and validated and if matches all needed input, pauses for a second, accepts the
+ form and moves on like a fucking train on a rush! you can speed up that 
+ behaviour with a deliberate keyclick you configure elsewhere!
+
+When itsalive is used between humans for communication by proxy, it has 
+ something like shmoes(x,y,z...) coefficient value of it. which is a measure of 
+ how many and how serious fuckitimgoinlive() incidents have between the users 
+ during the piping of interpreted data (or not interpreted at all! itsalive.py 
+ can be as silent as a fart! *xcuse moi*)
+
+Reading Revolution Baby! (http://github.com/user/bhdz/itsalive)
+
+This should be a nice TEST TEXT. 
+    "I have one speed. GO!" {!dubs dubs dubs|blinks a '*' for a second or 
+     two!}
+    --Charlie Sheen
+
+    "Actually guys, right now, I simulate the fucking bot in my brainz!"
+    --poor author {! 8-||}
+    
+    "Moralfags are on your ass!" *puts Guy Fawkes mask|loads guy_fawkes.jpg into
+      the "web.stdout" datachannel*
+    --itsalive.py annoyed at a persistent obnoxious troll who abuses the input
+     channels. totally bluffing ;)
+     
+     4**3=12? *puts sunglasses*
+     
+     2***3=8? *aha! more multiplication signs! accents*
+
+    Here you define text, *pause: 1/2s* as a structured listing of comma
+     *pause: 1/4s put: newline* separated values. *pause: 3/4s*
+     Additional text simply teaches the bot... *blink: 3t* for instance 
+     the previous star signed symbols have taught him to accentuate the last 
+     whitespace separated string (*darken: text.next: darken: text.last*or symbol)
+     *lighten: text.next* so next time it faces that symbol string
+     it would interpret it... Basically * means "new" or "learn" or "consider 
+     please" or "please don't fuckup if thy understand not" so it shouldn't panic
+     a lot when faced with * or **, *blabla*, or simply '*'
+  
+As you can see
+ paragraphs are "guidelined" with a single (or more) whitespace leading.
+ 
+if you use:
+ texting like this
+ this would be "sectioned" text with
+ this = whatever 
+ properties inside
+ more subsections may follow
+ like this:
+  subsection field = blabla
+  subsection leaf (like '=' but not constrained to nonsectioned value): leaf value
+ ordinary lines would be indexed ordinary lines!
+ something like __doc__ but not forced to be a doc, just value
+ 
+you can start valueing like this
+
+Something =
+ subthing thing = blabla
+ subthing 2 = 
+  subsubthing 2 1 = vlaslasl
+  subsubthing 2 2 = askdaksmdkm
+ whatever... just a comment line
+ bull = shit
+
+Person = 
+ age = 23 !or $integer
+ salary = 2000.0/month !or $integer/$string
+ work start =  02/Jun/2013 !or $date !or $integer/$integer/$integer
+ contacts = 
+  email:    Boril Boyanov <borko.boyanov@gmail.com>
+  tel:      +359 882 212131
+  shkype:   borko.boyanov
+ projects = 
+  * itsalive! Pytils Pyre "Hello World!"
+  
+ init script = 
+  ! $ age, salary, work start
+   $.age = age
+   $.salary = salary
+   $.work start = work start
+   
+   if $.age < 16:
+    "please behave lad"
+   elif $.age > (33, 42):
+    "hello workhorse!" *grins!*
+   elif $.age > (42, 64):
+    "ouch! a veteran!" *bows down & reveranses*
+   elif $.age > 64:
+    "shutup granpa!" *runs away!*
+   ...
+   ... # instead of pass
+   ...
+   "in fact why not"
+   ...
+   with $ do:
+    age, salary, work start, = 
+    # :D 
+    age, a function ending with application
+    # What happend now folks :D
+    function ending = ! "output of the {age|age}"
+    # a lazy function definition was that last one ;)
+    # the shit evaluates later
+   using blabla as bullshit:
+    blablabla # The python "with" here is known as "using". with is described as 
+        # before
+   
+   the_bot_doesnt = give a shit about keywords being underscored or whitespaced
+   it's all a = dict!
+    {it's all a} *blurts out 'it\'s all a ' keyword value*
+
+ all stuff marked = the same
+ all stuff marked = is evaluated as groups, no ambiguity is left behind!
+ all stuff marked = this property has multiple "aspects" of it's value
+ all stuff marked = so it has "on the other hand" differencies in interpretation
+ all stuff marked = bot splits liek a chump and complains sometimes about it
+ 
+ That's all *folks!* A doc string value item that "shtamped" on each instance
+ you can simply evaluate it into a proper property later
+ like this = you can simply evaluate it into a proper property later if you wish 
+
+bot has = internal dicts
+allways...
+bot has = also, internal function dicts, doesn't differentiate between 
+ function/data really >:D
+ fucntional style is a preference, not enforcement! 
+ use = ! for functional style!
+ use : ! for more imperative approach.. same shit, the former simply 
+  might fuckitimgoinglive() the bot ;)
+ 
+ standard behaviour is to evaluate a callable  here, then refer to data if not a function call 
+ use '$' sign to segregate function input from function name reference like this
+ foo = bar # bar is not a func, therefore, check for 'bar' data, if not either decide if it's simply data ("like this")
+ foo = foo bar # gotcha! 'foo bar' is a func! call, and apply!
+ foo = foo bar : 1 2 3 # this would apply 'foo bar' with 1 2 and 3
+ foo = $ please just enter plain text bot will interpret it
