@@ -1,0 +1,8 @@
+#!/usr/bin/env glas.concept
+
+Hi.
+
+{{ contents: -> please }}
+
+Enjoy!
+
